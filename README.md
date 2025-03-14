@@ -1,5 +1,11 @@
 # Getting Started with Create React App
 
+RIFALDI JUDRI
+
+I use the Chakra UI design library version 2.2
+
+And using react version 19
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
