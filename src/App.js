@@ -129,12 +129,12 @@ const TestGithubSearchUser = () => {
                   variant="outline"
                   colorScheme="blue"
                   cursor="pointer"
-                  onClick={() => {
-                    setUsername(item);
-                    searchUsers(item);
-                  }}
                 >
-                  <TagLabel>{item}</TagLabel>
+                  <TagLabel
+                    onClick={() => {
+                      setUsername(item);
+                      searchUsers(item);
+                    }}>{item}</TagLabel>
                   <TagRightIcon as={CloseIcon} cursor="pointer" onClick={(e) => {
                     removeHistoryItem(item);
                   }} />
